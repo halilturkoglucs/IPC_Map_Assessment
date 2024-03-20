@@ -15,7 +15,7 @@ There's a sub-README.md file in the population-trend-app folder containing react
 - The chart is titled to show the country info as well as the whole page
 - You can include/exclude same phase data from the graph by clicking on the label (see screenshots please)
 - The assignment makes use of the given api key. 
-You can set a different one by specifying the below environment variable while running locally using nodejs if needed:
+You can set a different one by specifying the below environment variable while running locally using nodejs if needed (not for the production build, make sure api token is valid for the production build folder):
 `REACT_APP_API_TOKEN=your-api-token-here`
 - The chart is responsive and can work in different browsers and viewports (mobile, tablet, desktop etc.)
 - I have added a start and end year slicer, it defaults to 2020-2020. You can change the range accordingly but there's a debouncer 
